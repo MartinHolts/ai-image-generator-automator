@@ -35,7 +35,7 @@
       console.log(`💾 Prompt #${idx+1} saved.`);
       idx++;
       runOnce();
-    }, 2 * 60_000); // adjust if you need more/less than 2 minutes
+    }, 2 * 90_000); // adjust if you need more/less than 2 minutes
   };
 
   runOnce();
