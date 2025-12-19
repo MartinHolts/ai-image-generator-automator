@@ -117,7 +117,7 @@
                     // Find the save button INSIDE this specific container
                     const saveBtn = container.querySelector('.private-save-button');
                     if (saveBtn) {
-                        saveBtn.scrollIntoView({ behavior: 'instant', block: 'start' });
+                        saveBtn.scrollIntoView({ behavior: 'smooth', block: 'end' });
                         saveBtn.click();
                         console.log("   → ✅ Found correct iframe & clicked specific save button.");
                         return true;
